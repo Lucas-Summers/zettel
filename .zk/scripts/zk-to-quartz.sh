@@ -2,7 +2,7 @@
 # Export zk notes to Quartz format with improved link handling and recent notes update
 
 # Directories
-ZK_DIR="./notes"
+ZK_DIR="./"
 QUARTZ_CONTENT_DIR="../website/content"
 TEMPLATE_DIR=".zk/templates"
 
