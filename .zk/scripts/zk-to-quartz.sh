@@ -5,6 +5,7 @@
 ZK_DIR="./"
 QUARTZ_CONTENT_DIR="../website/content"
 TEMPLATE_DIR=".zk/templates"
+WEB_DIR="$HOME/areas/website"
 
 # Ensure Quartz content directory exists
 mkdir -p "$QUARTZ_CONTENT_DIR"
@@ -164,4 +165,6 @@ fi
 # Clean up the mapping file
 rm "$MAPPING_FILE"
 
-echo "Export complete. Run 'npx quartz build --serve' to run the site."
+cd "$WEB_DIR" && npx quartz sync
+
+echo "Export complete. Run 'npx quartz build --serve' to run the site locally."

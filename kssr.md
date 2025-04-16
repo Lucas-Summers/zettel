@@ -9,3 +9,4 @@ draft: false
 ---
 
 # This is my first blog post!
+Just a testing my zettelkasten system and exporting notes to quartz.
